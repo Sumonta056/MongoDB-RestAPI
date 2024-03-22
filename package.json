@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-restapi",
+  "version": "1.0.0",
+  "description": "RestApi - MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Sumonta056",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
+  }
+}

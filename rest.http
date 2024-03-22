@@ -1,0 +1,9 @@
+## Get All Product
+GET http://localhost:3000/products
+
+## Create Product
+POST http://localhost:3000/products
+{
+  "name": "Product 1",
+  "price": 100
+}
