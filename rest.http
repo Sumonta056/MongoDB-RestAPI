@@ -1,9 +1,12 @@
 ## Get All Product
 GET http://localhost:3000/products
 
-## Create Product
+### Create Product
 POST http://localhost:3000/products
-{
-  "name": "Product 1",
-  "price": 100
-}
+
+### Get Information of Product id=1
+GET http://localhost:3000/products/1
+
+
+#### No Route
+GET http://localhost:3000/about

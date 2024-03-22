@@ -1,10 +1,17 @@
 # 📚 MongoDB and Mongoose Tutorial and Resources
 
-<hr>
 
 #### 🔔 MongoDB Setup : [👉 How to Setup Mongo DB](https://youtu.be/uo3VHw8v_GE?si=OOmPct4ZD_iMNKq0)
 
 - Download MongoDB Community Version ( [👉 Click Here](https://www.mongodb.com/try/download/community) )
 - Download MongoDB Shell ( [👉 Click Here](https://www.mongodb.com/try/download/shell) )
+- Cloud MongoDB Atlas ( [👉 Click Here](https://cloud.mongodb.com/v2#/org/65fd9fbfa0744761b52cafcd/) )
 
 #### 🌱 REST API using NodeJS and MongoDB : [👉 Complete Playlist](https://youtube.com/playlist?list=PLdHg5T0SNpN3EoN3PEyCmPR42Ok_44OFT&si=5lAW2J6RDYipqv-D)
+
+
+<hr>
+
+#### MongoDB Issues and Solutions
+
+- [👉 MongoDB Error: MongoServerSelectionError: 64060000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80 at Timeout._onTimeout.](https://www.reddit.com/r/mongodb/comments/16bcsb4/mongoserverselectionerror/)
