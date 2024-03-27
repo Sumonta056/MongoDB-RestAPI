@@ -1,6 +1,8 @@
 // Importing Packages
 const express = require("express");
 const app = express();
+app.use(express.json()); // Handle Json Body
+app.use(express.urlencoded({ extended: true })); // Handle URL-encoded data
 
 // Conntection MongoDB
 const mongoose = require("mongoose");
@@ -8,9 +10,9 @@ mongoose
   .connect(
     `mongodb+srv://project-restapi.5n25wpo.mongodb.net/?retryWrites=true&w=majority&appName=Project-RESTAPI/`,
     {
-      dbName : "Project-RESTAPI",
-      user : "sumontasaha80",
-      pass : "PeV8ZpACRbAV9Ast",
+      dbName: "Project-RESTAPI",
+      user: "sumontasaha80",
+      pass: "PeV8ZpACRbAV9Ast",
       useNewUrlParser: true,
       useUnifiedTopology: true,
     }
@@ -22,11 +24,17 @@ mongoose
 const productRouter = require("./Routes/Product.route.js");
 app.use("/products", productRouter);
 
+// Test routes
+// Query, Params, JSON Body and Urlencoded
+const testRoutes = require("./Routes/Test.route.js");
+app.use("/test", testRoutes);
+
 // Main Router
 app.get("/", (req, res, next) => {
   res.send("Hello World");
 });
 
+// Set Error
 app.use((req, res, next) => {
   const err = new Error("Not Found");
   err.message = "Not Found";
