@@ -5,6 +5,12 @@
 - Download MongoDB Community Version ( [👉 Click Here](https://www.mongodb.com/try/download/community) )
 - Download MongoDB Shell ( [👉 Click Here](https://www.mongodb.com/try/download/shell) )
 - Cloud MongoDB Atlas ( [👉 Click Here](https://cloud.mongodb.com/v2#/org/65fd9fbfa0744761b52cafcd/) )
+- Setup Complete MongoDB in Local ( [👉 Click Here](https://www.youtube.com/watch?v=jvaBaxlTqU8) )
+
+### 🌿 Test MongoDB Connection in Local:
+- Installing MongoDB & MongoDB Compass ( [👉 Click Here](https://youtu.be/oMrKVEedpHg?si=9QeoXAEBqAZVTVYi) )
+- CRUD Operations in MongoDB ( [👉 Click Here](https://www.youtube.com/watch?v=9Om0FMBz1yU) )
+
 
 #### 🌱 REST API using NodeJS and MongoDB :
 
